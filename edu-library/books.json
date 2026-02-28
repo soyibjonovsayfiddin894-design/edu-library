@@ -1,0 +1,14 @@
+[
+    {
+        "title":"Physics 101",
+        "pdf":"https://example.com/physics101.pdf",
+        "video":"https://youtube.com/example1",
+        "category":"Science"
+    },
+    {
+        "title":"Mathematics Basics",
+        "pdf":"https://example.com/math.pdf",
+        "video":"https://youtube.com/example2",
+        "category":"Math"
+    }
+]

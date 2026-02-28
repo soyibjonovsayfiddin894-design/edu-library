@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, sans-serif;
+    padding:20px;
+    transition: background 0.3s, color 0.3s;
+}
+.login-box{
+    width:300px;
+    margin:50px auto;
+    border:1px solid #ccc;
+    padding:20px;
+    border-radius:8px;
+}
+.book{
+    padding:5px;
+    border-bottom:1px solid #ccc;
+    margin-bottom:5px;
+}
+.menu{
+    text-align:right;
+    margin-bottom:10px;
+}
+body.dark{
+    background:#121212;
+    color:#eee;
+}
+body.dark a{color:#4da6ff;}

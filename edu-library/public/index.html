@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edu Library Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login-box">
+    <h2>Login</h2>
+    <form id="loginForm">
+        <input type="text" id="username" placeholder="Username" required><br><br>
+        <input type="password" id="password" placeholder="Password" required><br><br>
+        <button type="submit">Login</button>
+    </form>
+    <p>Yangi foydalanuvchi? <span id="registerLink">Ro'yxatdan o'tish</span></p>
+
+    <div id="registerBox" style="display:none;">
+        <h3>Register</h3>
+        <input type="text" id="regUsername" placeholder="Username" required><br><br>
+        <input type="password" id="regPassword" placeholder="Password" required><br><br>
+        <button id="registerBtn">Register</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
